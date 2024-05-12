@@ -1,12 +1,16 @@
 import {ScrollView, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {footerHeight, headerHeight} from '../utils/common/globalStyles';
+import Icon from 'react-native-vector-icons/FontAwesome5';
 
 const MainData = () => {
   return (
     <View style={styles.bodyContainer}>
       <ScrollView>
-        <Text>MainData</Text>
+        <View style={{display: 'flex', flex: 1, gap: 10, flexDirection: 'row'}}>
+          <Text>Main Data</Text>
+          <Icon name="facebook" size={30} />
+        </View>
         <Text>MainData</Text>
         <Text>MainData</Text>
         <Text>MainData</Text>

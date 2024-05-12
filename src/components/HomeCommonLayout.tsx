@@ -36,6 +36,7 @@ const styles = StyleSheet.create({
   header: {
     top: 0,
     left: 0,
+    right: 0,
     padding: 10,
     position: 'absolute',
   },
@@ -43,6 +44,7 @@ const styles = StyleSheet.create({
   footer: {
     bottom: 0,
     left: 0,
+    right: 0,
     position: 'absolute',
     padding: 10,
   },
