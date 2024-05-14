@@ -28,9 +28,6 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     padding: 10,
     margin: 0,
-    borderColor: 'red',
-    borderWidth: 1,
-    height: 'auto',
     position: 'relative',
   },
   header: {

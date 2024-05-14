@@ -1,17 +1,12 @@
-import {View} from 'react-native';
 import React from 'react';
-import HomeCommonLayout from './components/HomeCommonLayout';
-import MainHeader from './components/MainHeader';
-import MainFooter from './components/MainFooter';
-import MainData from './components/MainData';
+import {NavigationContainer} from '@react-navigation/native';
+import Router from './components/Router';
 
 const App = () => {
   return (
-    <View style={{flex: 1}}>
-      <HomeCommonLayout header={<MainHeader />} footer={<MainFooter />}>
-        <MainData />
-      </HomeCommonLayout>
-    </View>
+    <NavigationContainer>
+      <Router />
+    </NavigationContainer>
   );
 };
 

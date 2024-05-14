@@ -1,34 +1,60 @@
-import {StyleSheet, View} from 'react-native';
+import {StyleSheet, TouchableOpacity, View} from 'react-native';
 import React from 'react';
 import {footerHeight} from '../utils/common/globalStyles';
 import SearchIcon from 'react-native-vector-icons/EvilIcons';
 import HomeIcon from 'react-native-vector-icons/AntDesign';
 import BookmarkIcon from 'react-native-vector-icons/Ionicons';
 import ProfileIcon from 'react-native-vector-icons/FontAwesome';
+import {
+  NavigationHelpers,
+  ParamListBase,
+  TabNavigationState,
+} from '@react-navigation/native';
+import {
+  BottomTabDescriptorMap,
+  BottomTabNavigationEventMap,
+} from '@react-navigation/bottom-tabs/lib/typescript/src/types';
+import {EdgeInsets} from 'react-native-safe-area-context';
+import {MainFooterTypes} from '../utils/data';
 
-const MainFooter = () => {
+interface IProps {
+  state: TabNavigationState<ParamListBase>;
+  descriptors: BottomTabDescriptorMap;
+  navigation: NavigationHelpers<ParamListBase, BottomTabNavigationEventMap>;
+  insets: EdgeInsets;
+}
+
+const MainFooter = ({navigation}: IProps) => {
   return (
     <View style={styles.footerContainer}>
-      <View style={styles.iconContainer}>
-        <HomeIcon name="home" size={20} />
-      </View>
-      <View style={styles.iconContainer}>
-        <SearchIcon name="search" size={30} />
-      </View>
-      <View style={styles.iconContainer}>
-        <BookmarkIcon name="bookmarks" size={18} />
-      </View>
-      <View style={styles.iconContainer}>
-        <ProfileIcon name="user-circle-o" size={20} />
-      </View>
-
-      {/* {Object.entries(mainFooterConfig).map(([footerItem, footerObject]) => {
-        return (
-          <View style={styles.iconContainer} key={footerItem}>
-            <Icon name={footerObject?.icon} size={30} />
-          </View>
-        );
-      })} */}
+      <TouchableOpacity style={styles.iconContainer}>
+        <HomeIcon
+          name="home"
+          size={20}
+          onPress={() => navigation.navigate(MainFooterTypes.HOME)}
+        />
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.iconContainer}>
+        <SearchIcon
+          name="search"
+          size={30}
+          onPress={() => navigation.navigate(MainFooterTypes.EXPLORE)}
+        />
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.iconContainer}>
+        <BookmarkIcon
+          name="bookmarks"
+          size={18}
+          onPress={() => navigation.navigate(MainFooterTypes.BOOKMARKS)}
+        />
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.iconContainer}>
+        <ProfileIcon
+          name="user-circle-o"
+          size={20}
+          onPress={() => navigation.navigate(MainFooterTypes.PROFILE)}
+        />
+      </TouchableOpacity>
     </View>
   );
 };
@@ -39,7 +65,6 @@ const styles = StyleSheet.create({
   footerContainer: {
     display: 'flex',
     flexDirection: 'row',
-    flex: 1,
     borderTopColor: 'grey',
     borderTopWidth: 1,
     height: footerHeight,
