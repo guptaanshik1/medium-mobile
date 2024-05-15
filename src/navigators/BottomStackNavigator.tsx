@@ -6,16 +6,33 @@ import Explore from '../pages/Explore/view';
 import Bookmarks from '../pages/Bookmarks/view';
 import Profile from '../pages/Profile/view';
 import MainFooter from '../components/MainFooter';
+import MainHeader from '../components/MainHeader';
 
 export const Tab = createBottomTabNavigator<TBottomNavigatonParamList>();
 
 const BottomStackNavigator = () => {
   return (
     <Tab.Navigator tabBar={props => <MainFooter {...props} />}>
-      <Tab.Screen name={MainFooterTypes.HOME} component={HomeListing} />
-      <Tab.Screen name={MainFooterTypes.EXPLORE} component={Explore} />
-      <Tab.Screen name={MainFooterTypes.BOOKMARKS} component={Bookmarks} />
-      <Tab.Screen name={MainFooterTypes.PROFILE} component={Profile} />
+      <Tab.Screen
+        name={MainFooterTypes.HOME}
+        component={HomeListing}
+        options={{header: props => <MainHeader {...props} />}}
+      />
+      <Tab.Screen
+        name={MainFooterTypes.EXPLORE}
+        component={Explore}
+        options={{header: props => <MainHeader {...props} />}}
+      />
+      <Tab.Screen
+        name={MainFooterTypes.BOOKMARKS}
+        component={Bookmarks}
+        options={{header: props => <MainHeader {...props} />}}
+      />
+      <Tab.Screen
+        name={MainFooterTypes.PROFILE}
+        component={Profile}
+        options={{header: props => <MainHeader {...props} />}}
+      />
     </Tab.Navigator>
   );
 };
