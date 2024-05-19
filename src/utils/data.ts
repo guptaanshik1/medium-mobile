@@ -17,3 +17,8 @@ export type TBottomNavigatonParamList = {
   Bookmarks: undefined;
   Profile: undefined;
 };
+
+export interface IMutationOptions {
+  onSuccess?: <T>(data?: T) => void;
+  onError?: <T>(data?: T) => void;
+}
