@@ -1,12 +1,14 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import {headerHeight} from '../utils/common/globalStyles';
+import {globalPadding, headerHeight} from '../utils/common/globalStyles';
 import {
   BottomTabNavigationOptions,
   BottomTabNavigationProp,
   Layout,
 } from '@react-navigation/bottom-tabs/lib/typescript/src/types';
 import {ParamListBase, RouteProp} from '@react-navigation/native';
+import NotificationIcon from 'react-native-vector-icons/Ionicons';
+import SelectableTabView from './SelectableTabs/SelectableTabView';
 
 interface IProps {
   layout: Layout;
@@ -18,7 +20,11 @@ interface IProps {
 const MainHeader = ({route}: IProps) => {
   return (
     <View style={styles.headerContainer}>
-      <Text>{route?.name}</Text>
+      <View style={styles.titleRow}>
+        <Text style={styles.title}>{route?.name}</Text>
+        <NotificationIcon name="notifications-outline" size={24} />
+      </View>
+      <SelectableTabView />
     </View>
   );
 };
@@ -29,11 +35,22 @@ const styles = StyleSheet.create({
   headerContainer: {
     display: 'flex',
     height: headerHeight,
+    padding: globalPadding,
     justifyContent: 'flex-start',
     alignContent: 'flex-start',
     left: 0,
     right: 0,
     borderColor: '#000000',
-    borderWidth: 1,
+    borderBottomWidth: 1,
+  },
+  titleRow: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  title: {
+    fontWeight: '700',
+    fontSize: 24,
   },
 });
