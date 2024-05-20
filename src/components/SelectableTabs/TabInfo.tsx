@@ -6,7 +6,6 @@ interface IProps {
 }
 
 const TabInfo = ({tabData}: IProps) => {
-  console.log({tabData})
   return (
     <View style={styles.tabView}>
       <Text style={styles.tabText}>{tabData}</Text>

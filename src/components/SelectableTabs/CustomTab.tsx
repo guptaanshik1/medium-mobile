@@ -1,10 +1,11 @@
 import React from 'react';
-import {StyleSheet, Text} from 'react-native';
+import {StyleSheet, Text, TouchableOpacity} from 'react-native';
 import {
   NavigationState,
   SceneRendererProps,
   TabBar,
 } from 'react-native-tab-view';
+import {useTabStore} from '../../pages/HomeListing/tabStore';
 
 interface Route {
   key: string;
@@ -14,6 +15,13 @@ interface Route {
 type TProps = SceneRendererProps & {navigationState: NavigationState<Route>};
 
 const CustomTab = (props: TProps) => {
+  const {setSelectedHomeTab} = useTabStore();
+
+  const handleTabPress = (route: Route) => {
+    console.log({route});
+    setSelectedHomeTab(route);
+  };
+
   return (
     <TabBar
       {...props}
@@ -23,6 +31,7 @@ const CustomTab = (props: TProps) => {
       style={styles.tabBar}
       scrollEnabled={true}
       indicatorStyle={styles.indicator}
+      onTabPress={({route}) => handleTabPress(route)}
     />
   );
 };
