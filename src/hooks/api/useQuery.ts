@@ -10,8 +10,8 @@ import {IMutationOptions} from '../../utils/data';
 
 const useQuery = <T>(
   url: string,
-  pathVariables?: TPathVariables,
-  searchParams?: TSearchParams,
+  pathVariables?: TPathVariables | undefined,
+  searchParams?: TSearchParams | undefined,
   mutationOptions?: IMutationOptions,
 ) => {
   const [data, setData] = useState<T | null>(null);
@@ -19,6 +19,7 @@ const useQuery = <T>(
   const [error, setError] = useState<unknown | null>(null);
 
   const fetchData = async () => {
+    console.log({headers: axios.defaults.headers});
     try {
       setIsLoading(true);
       const response: AxiosResponse<T> = await axios.get(
@@ -37,7 +38,7 @@ const useQuery = <T>(
   };
 
   useEffect(() => {
-    fetchData;
+    fetchData();
   }, []);
 
   return {data, isLoading, error};

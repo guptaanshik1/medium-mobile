@@ -6,6 +6,7 @@ interface IProps {
 }
 
 const TabInfo = ({tabData}: IProps) => {
+  console.log({tabData})
   return (
     <View style={styles.tabView}>
       <Text style={styles.tabText}>{tabData}</Text>
@@ -17,10 +18,12 @@ export default TabInfo;
 
 const styles = StyleSheet.create({
   tabView: {
+    display: 'flex',
+    flexDirection: 'row',
     backgroundColor: 'white',
   },
   tabText: {
     color: '#000000',
-    fontSize: 30,
+    fontSize: 38,
   },
 });

@@ -35,7 +35,6 @@ const styles = StyleSheet.create({
   headerContainer: {
     display: 'flex',
     height: headerHeight,
-    padding: globalPadding,
     justifyContent: 'flex-start',
     alignContent: 'flex-start',
     left: 0,
@@ -48,6 +47,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    padding: globalPadding,
   },
   title: {
     fontWeight: '700',

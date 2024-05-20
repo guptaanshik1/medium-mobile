@@ -1,0 +1,1198 @@
+[
+  {
+    "data": {
+      "webRecommendedFeed": {
+        "items": [
+          {
+            "feedId": "70a6eac1-3503-4ac1-8ae6-3f11fc9f8539",
+            "moduleSourceEncoding": 15,
+            "reason": 102,
+            "post": {
+              "id": "f083cf994a85",
+              "creator": {
+                "__typename": "User",
+                "name": "Theo Wolf",
+                "username": "theo.wolf",
+                "id": "ea2521d61d62",
+                "mediumMemberAt": 1682586383000,
+                "socialStats": {
+                  "followerCount": 444,
+                  "__typename": "SocialStats"
+                },
+                "verifications": {
+                  "isBookAuthor": false,
+                  "__typename": "VerifiedInfo"
+                },
+                "customDomainState": null,
+                "hasSubdomain": false,
+                "bio": "Machine Learning Engineer @ Carbon Re, passionate about sustainability, physics, chemistry and AI, incoming PhD at Oxford University. theodorewolf.github.io/",
+                "imageId": "1*fvRtxLkYfXSgXRFpRO3IqA.jpeg",
+                "membership": {
+                  "tier": "MEMBER",
+                  "__typename": "Membership",
+                  "id": "957c09ea0851"
+                },
+                "viewerEdge": {
+                  "id": "userId:ea2521d61d62-viewerId:756ff13a2765",
+                  "isMuting": false,
+                  "__typename": "UserViewerEdge"
+                }
+              },
+              "collection": {
+                "name": "Towards Data Science",
+                "id": "7f60cf5620c9",
+                "domain": "towardsdatascience.com",
+                "slug": "towards-data-science",
+                "__typename": "Collection",
+                "viewerEdge": {
+                  "id": "collectionId:7f60cf5620c9-viewerId:756ff13a2765",
+                  "isMuting": false,
+                  "__typename": "CollectionViewerEdge"
+                }
+              },
+              "extendedPreviewContent": {
+                "bodyModel": {
+                  "sections": [
+                    {
+                      "name": "f4f4",
+                      "startIndex": 0,
+                      "textLayout": null,
+                      "imageLayout": null,
+                      "backgroundImage": null,
+                      "videoLayout": null,
+                      "backgroundVideo": null,
+                      "__typename": "Section"
+                    }
+                  ],
+                  "paragraphs": [
+                    {
+                      "id": "106d537639e6_preview_0",
+                      "name": "24fe",
+                      "type": "H3",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "Kolmogorov-Arnold Networks: the latest advance in Neural Networks, simply explained",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "106d537639e6_preview_1",
+                      "name": "f754",
+                      "type": "H4",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "The new type of network that is making waves in the ML world.",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "106d537639e6_preview_2",
+                      "name": "e011",
+                      "type": "IMG",
+                      "href": null,
+                      "layout": "INSET_CENTER",
+                      "metadata": {
+                        "id": "1*bdY9iqbeQHs5Lwzz3h9sbw.png",
+                        "originalHeight": 568,
+                        "originalWidth": 907,
+                        "focusPercentX": null,
+                        "focusPercentY": null,
+                        "alt": null,
+                        "__typename": "ImageMetadata"
+                      },
+                      "text": "Comparison of the MLP and the KAN. Image from paper.",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [
+                        {
+                          "type": "A",
+                          "start": 46,
+                          "end": 51,
+                          "href": "https://arxiv.org/abs/2404.19756",
+                          "anchorType": "LINK",
+                          "userId": null,
+                          "linkMetadata": null,
+                          "__typename": "Markup"
+                        }
+                      ],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "106d537639e6_preview_3",
+                      "name": "a59a",
+                      "type": "P",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "In April, a paper appeared on arXiv named: KAN: Kolmogorov–Arnold Networks. The tweet announcing got ~5k likes, which for a paper announcement is pretty viral. The accompanying GitHub repository already has 7.6k stars and counting.",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [
+                        {
+                          "type": "A",
+                          "start": 43,
+                          "end": 74,
+                          "href": "https://arxiv.org/abs/2404.19756",
+                          "anchorType": "LINK",
+                          "userId": null,
+                          "linkMetadata": null,
+                          "__typename": "Markup"
+                        },
+                        {
+                          "type": "A",
+                          "start": 177,
+                          "end": 194,
+                          "href": "https://github.com/KindXiaoming/pykan",
+                          "anchorType": "LINK",
+                          "userId": null,
+                          "linkMetadata": null,
+                          "__typename": "Markup"
+                        }
+                      ],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "106d537639e6_preview_4",
+                      "name": "e525",
+                      "type": "IFRAME",
+                      "href": null,
+                      "layout": "INSET_CENTER",
+                      "metadata": null,
+                      "text": "",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": {
+                        "mediaResource": {
+                          "id": "509c625dfba11d5b0d59abb4df987140",
+                          "iframeSrc": "https://cdn.embedly.com/widgets/media.html?type=text%2Fhtml&key=a19fcc184b9711e1b4764040d3dc5c07&schema=twitter&url=https%3A//twitter.com/ZimingLiu11/status/1785483967719981538&image=",
+                          "iframeHeight": 281,
+                          "iframeWidth": 500,
+                          "title": "Ziming Liu on Twitter: \"MLPs are so foundational, but are there alternatives? MLPs place activation functions on neurons, but can we instead place (learnable) activation functions on weights? Yes, we KAN! We propose Kolmogorov-Arnold Networks (KAN), which are more accurate and interpretable than MLPs.🧵 pic.twitter.com/4Soe2M7NfG / Twitter\"",
+                          "__typename": "MediaResource"
+                        },
+                        "__typename": "Iframe"
+                      },
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "106d537639e6_preview_5",
+                      "name": "7ec5",
+                      "type": "P",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "The Kolmogorov-Arnold Network (KAN) is a brand-new class of Neural Network building block. It…",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    }
+                  ],
+                  "__typename": "RichText"
+                },
+                "isFullContent": false,
+                "__typename": "PreviewContent",
+                "subtitle": "The new type of network that is making waves in the ML world."
+              },
+              "__typename": "Post",
+              "isLocked": true,
+              "isSeries": false,
+              "inResponseToCatalogResult": null,
+              "pinnedAt": 0,
+              "pinnedByCreatorAt": 1715544903133,
+              "previewImage": {
+                "id": "1*bdY9iqbeQHs5Lwzz3h9sbw.png",
+                "focusPercentX": null,
+                "focusPercentY": null,
+                "__typename": "ImageMetadata"
+              },
+              "readingTime": 8.327358490566038,
+              "sequence": null,
+              "title": "Kolmogorov-Arnold Networks: the latest advance in Neural Networks, simply explained",
+              "uniqueSlug": "kolmogorov-arnold-networks-the-latest-advance-in-neural-networks-simply-explained-f083cf994a85",
+              "pendingCollection": null,
+              "statusForCollection": "APPROVED",
+              "isPublished": true,
+              "visibility": "LOCKED",
+              "allowResponses": true,
+              "postResponses": {
+                "count": 15,
+                "__typename": "PostResponses"
+              },
+              "isLimitedState": false,
+              "mediumUrl": "https://towardsdatascience.com/kolmogorov-arnold-networks-the-latest-advance-in-neural-networks-simply-explained-f083cf994a85",
+              "clapCount": 1181,
+              "inResponseToEntityType": null,
+              "tags": [
+                {
+                  "__typename": "Tag",
+                  "id": "machine-learning",
+                  "displayTitle": "Machine Learning",
+                  "normalizedTagSlug": "machine-learning"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "kolmogorov-arnold-network",
+                  "displayTitle": "Kolmogorov Arnold Network",
+                  "normalizedTagSlug": "kolmogorov-arnold-network"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "ai",
+                  "displayTitle": "AI",
+                  "normalizedTagSlug": "ai"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "math",
+                  "displayTitle": "Math",
+                  "normalizedTagSlug": "math"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "editors-pick",
+                  "displayTitle": "Editors Pick",
+                  "normalizedTagSlug": "editors-pick"
+                }
+              ],
+              "firstPublishedAt": 1715541386279,
+              "latestPublishedAt": 1715807339074
+            },
+            "__typename": "HomeFeedItem",
+            "reasonString": "Selected for you"
+          },
+          {
+            "feedId": "70a6eac1-3503-4ac1-8ae6-3f11fc9f8539",
+            "moduleSourceEncoding": 15,
+            "reason": 99,
+            "post": {
+              "id": "09a88fc502a1",
+              "creator": {
+                "__typename": "User",
+                "name": "The Good Men Project",
+                "username": "goodmenproject",
+                "id": "bab7948eb227",
+                "mediumMemberAt": 1567723632000,
+                "socialStats": {
+                  "followerCount": 179750,
+                  "__typename": "SocialStats"
+                },
+                "verifications": {
+                  "isBookAuthor": false,
+                  "__typename": "VerifiedInfo"
+                },
+                "customDomainState": {
+                  "live": {
+                    "domain": "goodmenproject.medium.com",
+                    "__typename": "CustomDomain"
+                  },
+                  "__typename": "CustomDomainState"
+                },
+                "hasSubdomain": true,
+                "bio": "We're having a conversation about the changing roles of men in the 21st century. Main site is https://goodmenproject.com Email us info@goodmenproject.com",
+                "imageId": "1*hTe1tFu-H2Q2hUVCxpiKMg.png",
+                "membership": {
+                  "tier": "MEMBER",
+                  "__typename": "Membership",
+                  "id": "4cf96b389d1b"
+                },
+                "viewerEdge": {
+                  "id": "userId:bab7948eb227-viewerId:756ff13a2765",
+                  "isMuting": false,
+                  "__typename": "UserViewerEdge"
+                }
+              },
+              "collection": {
+                "name": "Change Becomes You",
+                "id": "1ab68867dfab",
+                "domain": null,
+                "slug": "change-becomes-you",
+                "__typename": "Collection",
+                "viewerEdge": {
+                  "id": "collectionId:1ab68867dfab-viewerId:756ff13a2765",
+                  "isMuting": false,
+                  "__typename": "CollectionViewerEdge"
+                }
+              },
+              "extendedPreviewContent": {
+                "bodyModel": {
+                  "sections": [
+                    {
+                      "name": "72c1",
+                      "startIndex": 0,
+                      "textLayout": null,
+                      "imageLayout": null,
+                      "backgroundImage": null,
+                      "videoLayout": null,
+                      "backgroundVideo": null,
+                      "__typename": "Section"
+                    }
+                  ],
+                  "paragraphs": [
+                    {
+                      "id": "b13625f66c72_preview_0",
+                      "name": "91fe",
+                      "type": "H3",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "Revisiting ‘Town Without Pity’ as a Moral Yardstick",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "b13625f66c72_preview_1",
+                      "name": "b45e",
+                      "type": "H4",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "It is a moral period piece that shows us just how bad things used to be not that long ago, while challenging us to be aware of what might still need to be changed.",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "b13625f66c72_preview_2",
+                      "name": "1a34",
+                      "type": "IMG",
+                      "href": null,
+                      "layout": "INSET_CENTER",
+                      "metadata": {
+                        "id": "1*9JFsPOLZ23BG7PshBD66OQ.jpeg",
+                        "originalHeight": 490,
+                        "originalWidth": 800,
+                        "focusPercentX": null,
+                        "focusPercentY": null,
+                        "alt": null,
+                        "__typename": "ImageMetadata"
+                      },
+                      "text": "Photo credit: iStock",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [
+                        {
+                          "type": "A",
+                          "start": 14,
+                          "end": 20,
+                          "href": "https://www.istockphoto.com/photo/old-fashioned-film-director-posing-with-cinema-equipments-and-smoking-gm481362884-69534399",
+                          "anchorType": "LINK",
+                          "userId": null,
+                          "linkMetadata": null,
+                          "__typename": "Markup"
+                        }
+                      ],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "b13625f66c72_preview_3",
+                      "name": "28e9",
+                      "type": "P",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "By Daniel Gauss",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [
+                        {
+                          "type": "A",
+                          "start": 3,
+                          "end": 15,
+                          "href": "https://goodmenproject.com/author/daniel-gauss/",
+                          "anchorType": "LINK",
+                          "userId": null,
+                          "linkMetadata": null,
+                          "__typename": "Markup"
+                        }
+                      ],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "b13625f66c72_preview_4",
+                      "name": "78d8",
+                      "type": "P",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "If nothing else, Town Without Pity is an interesting cultural or historical document, as much of what happens in this film could clearly not happen today. Indeed, it works as an effective and somewhat reassuring moral assessment tool which shows us how far we have come in…",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [
+                        {
+                          "type": "EM",
+                          "start": 17,
+                          "end": 34,
+                          "href": null,
+                          "anchorType": null,
+                          "userId": null,
+                          "linkMetadata": null,
+                          "__typename": "Markup"
+                        }
+                      ],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    }
+                  ],
+                  "__typename": "RichText"
+                },
+                "isFullContent": false,
+                "__typename": "PreviewContent",
+                "subtitle": "It is a moral period piece that shows us just how bad things used to be not that long ago, while challenging us to be aware of what might…"
+              },
+              "__typename": "Post",
+              "isLocked": true,
+              "isSeries": false,
+              "inResponseToCatalogResult": null,
+              "pinnedAt": 0,
+              "pinnedByCreatorAt": 0,
+              "previewImage": {
+                "id": "1*9JFsPOLZ23BG7PshBD66OQ.jpeg",
+                "focusPercentX": null,
+                "focusPercentY": null,
+                "__typename": "ImageMetadata"
+              },
+              "readingTime": 4.637735849056604,
+              "sequence": null,
+              "title": "Revisiting ‘Town Without Pity’ as a Moral Yardstick",
+              "uniqueSlug": "revisiting-town-without-pity-as-a-moral-yardstick-09a88fc502a1",
+              "pendingCollection": null,
+              "statusForCollection": "APPROVED",
+              "isPublished": true,
+              "visibility": "LOCKED",
+              "allowResponses": true,
+              "postResponses": {
+                "count": 0,
+                "__typename": "PostResponses"
+              },
+              "isLimitedState": false,
+              "mediumUrl": "https://medium.com/change-becomes-you/revisiting-town-without-pity-as-a-moral-yardstick-09a88fc502a1",
+              "clapCount": 0,
+              "inResponseToEntityType": null,
+              "tags": [
+                {
+                  "__typename": "Tag",
+                  "id": "advice",
+                  "displayTitle": "Advice",
+                  "normalizedTagSlug": "advice"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "happiness",
+                  "displayTitle": "Happiness",
+                  "normalizedTagSlug": "happiness"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "self-improvement",
+                  "displayTitle": "Self Improvement",
+                  "normalizedTagSlug": "self-improvement"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "wellness",
+                  "displayTitle": "Wellness",
+                  "normalizedTagSlug": "wellness"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "health",
+                  "displayTitle": "Health",
+                  "normalizedTagSlug": "health"
+                }
+              ],
+              "firstPublishedAt": 1715567855932,
+              "latestPublishedAt": 1715567855932
+            },
+            "__typename": "HomeFeedItem",
+            "reasonString": "Because you follow Film"
+          },
+          {
+            "feedId": "70a6eac1-3503-4ac1-8ae6-3f11fc9f8539",
+            "moduleSourceEncoding": 15,
+            "reason": 102,
+            "post": {
+              "id": "c108a719e111",
+              "creator": {
+                "__typename": "User",
+                "name": "Marcus Fleckner",
+                "username": "marcusfleckner",
+                "id": "5be7c39f12de",
+                "mediumMemberAt": 1710957799000,
+                "socialStats": {
+                  "followerCount": 82,
+                  "__typename": "SocialStats"
+                },
+                "verifications": {
+                  "isBookAuthor": false,
+                  "__typename": "VerifiedInfo"
+                },
+                "customDomainState": {
+                  "live": {
+                    "domain": "marcusfleckner.medium.com",
+                    "__typename": "CustomDomain"
+                  },
+                  "__typename": "CustomDomainState"
+                },
+                "hasSubdomain": true,
+                "bio": "UX & UI designer & podcast host on the design podcast: \"Who is it for?\". Editor of Map Quest.",
+                "imageId": "1*gqOnHNLhwT1OJ1Ui8vUo2Q.png",
+                "membership": {
+                  "tier": "FRIEND",
+                  "__typename": "Membership",
+                  "id": "7b0e536a296a"
+                },
+                "viewerEdge": {
+                  "id": "userId:5be7c39f12de-viewerId:756ff13a2765",
+                  "isMuting": false,
+                  "__typename": "UserViewerEdge"
+                }
+              },
+              "collection": {
+                "name": "UX Collective",
+                "id": "138adf9c44c",
+                "domain": "uxdesign.cc",
+                "slug": "user-experience-design-1",
+                "__typename": "Collection",
+                "viewerEdge": {
+                  "id": "collectionId:138adf9c44c-viewerId:756ff13a2765",
+                  "isMuting": false,
+                  "__typename": "CollectionViewerEdge"
+                }
+              },
+              "extendedPreviewContent": {
+                "bodyModel": {
+                  "sections": [
+                    {
+                      "name": "86f4",
+                      "startIndex": 0,
+                      "textLayout": null,
+                      "imageLayout": null,
+                      "backgroundImage": null,
+                      "videoLayout": null,
+                      "backgroundVideo": null,
+                      "__typename": "Section"
+                    }
+                  ],
+                  "paragraphs": [
+                    {
+                      "id": "f08bba682766_preview_0",
+                      "name": "7351",
+                      "type": "H3",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "On which side do we put the primary button?",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "f08bba682766_preview_1",
+                      "name": "8450",
+                      "type": "H4",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "Revisiting: button placements.",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "f08bba682766_preview_2",
+                      "name": "db39",
+                      "type": "IMG",
+                      "href": null,
+                      "layout": "INSET_CENTER",
+                      "metadata": {
+                        "id": "1*ixhzVoTn2K8yeTM86M9vFA.png",
+                        "originalHeight": 480,
+                        "originalWidth": 800,
+                        "focusPercentX": null,
+                        "focusPercentY": null,
+                        "alt": "Side by side image of a template form showing a skelton-design with to call to action buttons at the bottom with next and back placed differently on each of the two examples.",
+                        "__typename": "ImageMetadata"
+                      },
+                      "text": "Placement of primary and secondary buttons on forms. Design by author.",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "f08bba682766_preview_3",
+                      "name": "79aa",
+                      "type": "P",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "In an earlier article written about “Why ‘OK’ buttons work better on the right”, I touched upon the placements of buttons. As of today, I’m still not sure which placement is the best. But here’s another take on it.",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [
+                        {
+                          "type": "A",
+                          "start": 36,
+                          "end": 79,
+                          "href": "https://medium.com/design-bootcamp/why-ok-buttons-work-better-on-the-right-e8f8576f4d41?sk=16d91973604b8eeb2eba7f026c1da06c",
+                          "anchorType": "LINK",
+                          "userId": "",
+                          "linkMetadata": null,
+                          "__typename": "Markup"
+                        },
+                        {
+                          "type": "EM",
+                          "start": 0,
+                          "end": 214,
+                          "href": "",
+                          "anchorType": "LINK",
+                          "userId": "",
+                          "linkMetadata": null,
+                          "__typename": "Markup"
+                        }
+                      ],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "f08bba682766_preview_4",
+                      "name": "d65e",
+                      "type": "P",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "There are many of sublime articles about the order of buttons…",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [
+                        {
+                          "type": "STRONG",
+                          "start": 0,
+                          "end": 34,
+                          "href": null,
+                          "anchorType": null,
+                          "userId": null,
+                          "linkMetadata": null,
+                          "__typename": "Markup"
+                        }
+                      ],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    }
+                  ],
+                  "__typename": "RichText"
+                },
+                "isFullContent": false,
+                "__typename": "PreviewContent",
+                "subtitle": "Revisiting: button placements."
+              },
+              "__typename": "Post",
+              "isLocked": true,
+              "isSeries": false,
+              "inResponseToCatalogResult": null,
+              "pinnedAt": 1715981492171,
+              "pinnedByCreatorAt": 0,
+              "previewImage": {
+                "id": "1*ixhzVoTn2K8yeTM86M9vFA.png",
+                "focusPercentX": null,
+                "focusPercentY": null,
+                "__typename": "ImageMetadata"
+              },
+              "readingTime": 7.617924528301886,
+              "sequence": null,
+              "title": "On which side do we put the primary button?",
+              "uniqueSlug": "on-which-side-do-we-put-the-primary-button-c108a719e111",
+              "pendingCollection": null,
+              "statusForCollection": "APPROVED",
+              "isPublished": true,
+              "visibility": "LOCKED",
+              "allowResponses": true,
+              "postResponses": {
+                "count": 2,
+                "__typename": "PostResponses"
+              },
+              "isLimitedState": false,
+              "mediumUrl": "https://uxdesign.cc/on-which-side-do-we-put-the-primary-button-c108a719e111",
+              "clapCount": 122,
+              "inResponseToEntityType": null,
+              "tags": [
+                {
+                  "__typename": "Tag",
+                  "id": "ux",
+                  "displayTitle": "UX",
+                  "normalizedTagSlug": "ux"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "design-process",
+                  "displayTitle": "Design Process",
+                  "normalizedTagSlug": "design-process"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "ui",
+                  "displayTitle": "UI",
+                  "normalizedTagSlug": "ui"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "design",
+                  "displayTitle": "Design",
+                  "normalizedTagSlug": "design"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "usability",
+                  "displayTitle": "Usability",
+                  "normalizedTagSlug": "usability"
+                }
+              ],
+              "firstPublishedAt": 1715981458025,
+              "latestPublishedAt": 1716015853706
+            },
+            "__typename": "HomeFeedItem",
+            "reasonString": "Selected for you"
+          },
+          {
+            "feedId": "70a6eac1-3503-4ac1-8ae6-3f11fc9f8539",
+            "moduleSourceEncoding": 15,
+            "reason": 102,
+            "post": {
+              "id": "01274a25d35d",
+              "creator": {
+                "__typename": "User",
+                "name": "Sylvain Zyssman",
+                "username": "sylzys",
+                "id": "b95c494f06a",
+                "mediumMemberAt": 1715638023089,
+                "socialStats": {
+                  "followerCount": 154,
+                  "__typename": "SocialStats"
+                },
+                "verifications": {
+                  "isBookAuthor": false,
+                  "__typename": "VerifiedInfo"
+                },
+                "customDomainState": null,
+                "hasSubdomain": false,
+                "bio": "Bridging business strategy and technology - Strategic solutions for modern challenges",
+                "imageId": "1*iM9qvRia0liYIdkdDHKI4Q.jpeg",
+                "membership": {
+                  "tier": "MEMBER",
+                  "__typename": "Membership",
+                  "id": "6fe88d06-459f-4c8a-b3a8-d258debb274d"
+                },
+                "viewerEdge": {
+                  "id": "userId:b95c494f06a-viewerId:756ff13a2765",
+                  "isMuting": false,
+                  "__typename": "UserViewerEdge"
+                }
+              },
+              "collection": {
+                "name": "AI Advances",
+                "id": "3fe99b2acc4",
+                "domain": "ai.gopubby.com",
+                "slug": "ai-advances",
+                "__typename": "Collection",
+                "viewerEdge": {
+                  "id": "collectionId:3fe99b2acc4-viewerId:756ff13a2765",
+                  "isMuting": false,
+                  "__typename": "CollectionViewerEdge"
+                }
+              },
+              "extendedPreviewContent": {
+                "bodyModel": {
+                  "sections": [
+                    {
+                      "name": "c02c",
+                      "startIndex": 0,
+                      "textLayout": null,
+                      "imageLayout": null,
+                      "backgroundImage": null,
+                      "videoLayout": null,
+                      "backgroundVideo": null,
+                      "__typename": "Section"
+                    }
+                  ],
+                  "paragraphs": [
+                    {
+                      "id": "f4d870e55fe9_preview_0",
+                      "name": "9ebb",
+                      "type": "H3",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "From Pen and Paper to Website in Minutes for Free?— Leveraging GPT-4o",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "f4d870e55fe9_preview_1",
+                      "name": "c4d4",
+                      "type": "IMG",
+                      "href": null,
+                      "layout": "INSET_CENTER",
+                      "metadata": {
+                        "id": "1*lL7K6UgQgZmAuAUnkuNjUA.jpeg",
+                        "originalHeight": 560,
+                        "originalWidth": 1000,
+                        "focusPercentX": -1,
+                        "focusPercentY": -1,
+                        "alt": "",
+                        "__typename": "ImageMetadata"
+                      },
+                      "text": "Image by kenshinstock on Freepik",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "f4d870e55fe9_preview_2",
+                      "name": "3295",
+                      "type": "P",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "OpenAI has announced the release of its brand new model, GPT-4o (o standing for ‘Omni’). Besides many advanced and exciting features in computer vision, real-time translation, or the education field, free users will particularly love one announcement: GPT4-o is available for free users! \nWhat does it mean? With multimodality, any…",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [
+                        {
+                          "type": "A",
+                          "start": 11,
+                          "end": 20,
+                          "href": "https://openai.com/index/spring-update/",
+                          "anchorType": "LINK",
+                          "userId": null,
+                          "linkMetadata": null,
+                          "__typename": "Markup"
+                        }
+                      ],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    }
+                  ],
+                  "__typename": "RichText"
+                },
+                "isFullContent": false,
+                "__typename": "PreviewContent",
+                "subtitle": "GPT-4o is now out and free. Can it create a professional website, starting from my pen & paper sketch? Let’s find out!"
+              },
+              "__typename": "Post",
+              "isLocked": true,
+              "isSeries": false,
+              "inResponseToCatalogResult": null,
+              "pinnedAt": 0,
+              "pinnedByCreatorAt": 1715905013548,
+              "previewImage": {
+                "id": "1*lL7K6UgQgZmAuAUnkuNjUA.jpeg",
+                "focusPercentX": null,
+                "focusPercentY": null,
+                "__typename": "ImageMetadata"
+              },
+              "readingTime": 7.842452830188679,
+              "sequence": null,
+              "title": "From Pen and Paper to Website in Minutes for Free?— Leveraging GPT-4o",
+              "uniqueSlug": "from-pen-and-paper-to-website-in-minutes-for-free-leveraging-gpt-4o-01274a25d35d",
+              "pendingCollection": null,
+              "statusForCollection": "APPROVED",
+              "isPublished": true,
+              "visibility": "LOCKED",
+              "allowResponses": true,
+              "postResponses": {
+                "count": 2,
+                "__typename": "PostResponses"
+              },
+              "isLimitedState": false,
+              "mediumUrl": "https://ai.gopubby.com/from-pen-and-paper-to-website-in-minutes-for-free-leveraging-gpt-4o-01274a25d35d",
+              "clapCount": 214,
+              "inResponseToEntityType": null,
+              "tags": [
+                {
+                  "__typename": "Tag",
+                  "id": "artificial-intelligence",
+                  "displayTitle": "Artificial Intelligence",
+                  "normalizedTagSlug": "artificial-intelligence"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "chatgpt",
+                  "displayTitle": "ChatGPT",
+                  "normalizedTagSlug": "chatgpt"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "website",
+                  "displayTitle": "Website",
+                  "normalizedTagSlug": "website"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "business",
+                  "displayTitle": "Business",
+                  "normalizedTagSlug": "business"
+                }
+              ],
+              "firstPublishedAt": 1715728654699,
+              "latestPublishedAt": 1716117548650
+            },
+            "__typename": "HomeFeedItem",
+            "reasonString": "Selected for you"
+          },
+          {
+            "feedId": "70a6eac1-3503-4ac1-8ae6-3f11fc9f8539",
+            "moduleSourceEncoding": 15,
+            "reason": 98,
+            "post": {
+              "id": "56eb22fe3a50",
+              "creator": {
+                "__typename": "User",
+                "name": "Wayne",
+                "username": "weijunext",
+                "id": "befe39d9c51b",
+                "mediumMemberAt": 0,
+                "socialStats": {
+                  "followerCount": 207,
+                  "__typename": "SocialStats"
+                },
+                "verifications": {
+                  "isBookAuthor": false,
+                  "__typename": "VerifiedInfo"
+                },
+                "customDomainState": {
+                  "live": {
+                    "domain": "weijunext.medium.com",
+                    "__typename": "CustomDomain"
+                  },
+                  "__typename": "CustomDomainState"
+                },
+                "hasSubdomain": true,
+                "bio": "Full-stack developer, sharing Next.js and Node.js knowledge. My twitter: @wayne_dev, @weijunext",
+                "imageId": "1*HlWk7NbtvN0uBZHNpLS2tg@2x.jpeg",
+                "membership": null,
+                "viewerEdge": {
+                  "id": "userId:befe39d9c51b-viewerId:756ff13a2765",
+                  "isMuting": false,
+                  "__typename": "UserViewerEdge"
+                }
+              },
+              "collection": null,
+              "extendedPreviewContent": {
+                "bodyModel": {
+                  "sections": [
+                    {
+                      "name": "2c5f",
+                      "startIndex": 0,
+                      "textLayout": null,
+                      "imageLayout": null,
+                      "backgroundImage": null,
+                      "videoLayout": null,
+                      "backgroundVideo": null,
+                      "__typename": "Section"
+                    }
+                  ],
+                  "paragraphs": [
+                    {
+                      "id": "8ede379dcf71_preview_0",
+                      "name": "072c",
+                      "type": "H3",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "React 19 is here! Let’s learn it!",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "8ede379dcf71_preview_1",
+                      "name": "b535",
+                      "type": "P",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "In February this year, React announced the release of version 19, finally updating a version number that had been static for two years (React 19 is Coming, What’s New?). Andrew Clark, a member of the React team, confirmed that the new version would be released in March or April.",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [
+                        {
+                          "type": "A",
+                          "start": 136,
+                          "end": 167,
+                          "href": "https://medium.com/stackademic/react-19-is-coming-whats-new-79e2d4b948e4",
+                          "anchorType": "LINK",
+                          "userId": null,
+                          "linkMetadata": null,
+                          "__typename": "Markup"
+                        }
+                      ],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    },
+                    {
+                      "id": "8ede379dcf71_preview_2",
+                      "name": "675d",
+                      "type": "P",
+                      "href": null,
+                      "layout": null,
+                      "metadata": null,
+                      "text": "As…",
+                      "hasDropCap": null,
+                      "dropCapImage": null,
+                      "markups": [],
+                      "__typename": "Paragraph",
+                      "codeBlockMetadata": null,
+                      "iframe": null,
+                      "mixtapeMetadata": null
+                    }
+                  ],
+                  "__typename": "RichText"
+                },
+                "isFullContent": false,
+                "__typename": "PreviewContent",
+                "subtitle": "Getting Started with React 19: What’s New and How to Use It"
+              },
+              "__typename": "Post",
+              "isLocked": false,
+              "isSeries": false,
+              "inResponseToCatalogResult": null,
+              "pinnedAt": 0,
+              "pinnedByCreatorAt": 1714726145951,
+              "previewImage": {
+                "id": "",
+                "focusPercentX": null,
+                "focusPercentY": null,
+                "__typename": "ImageMetadata"
+              },
+              "readingTime": 9.630188679245283,
+              "sequence": null,
+              "title": "React 19 is here! Let’s learn it!",
+              "uniqueSlug": "react-19-is-here-lets-learn-it-56eb22fe3a50",
+              "pendingCollection": null,
+              "statusForCollection": null,
+              "isPublished": true,
+              "visibility": "PUBLIC",
+              "allowResponses": true,
+              "postResponses": {
+                "count": 0,
+                "__typename": "PostResponses"
+              },
+              "isLimitedState": false,
+              "mediumUrl": "https://weijunext.medium.com/react-19-is-here-lets-learn-it-56eb22fe3a50",
+              "clapCount": 197,
+              "inResponseToEntityType": null,
+              "tags": [
+                {
+                  "__typename": "Tag",
+                  "id": "react",
+                  "displayTitle": "React",
+                  "normalizedTagSlug": "react"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "front-end-development",
+                  "displayTitle": "Front End Development",
+                  "normalizedTagSlug": "front-end-development"
+                },
+                {
+                  "__typename": "Tag",
+                  "id": "reactjs",
+                  "displayTitle": "Reactjs",
+                  "normalizedTagSlug": "reactjs"
+                }
+              ],
+              "firstPublishedAt": 1714445102707,
+              "latestPublishedAt": 1714445102707
+            },
+            "__typename": "HomeFeedItem",
+            "reasonString": "Selected for you"
+          }
+        ],
+        "pagingInfo": {
+          "next": {
+            "limit": 5,
+            "to": "15",
+            "source": "70a6eac1-3503-4ac1-8ae6-3f11fc9f8539",
+            "__typename": "PageParams"
+          },
+          "__typename": "Paging"
+        },
+        "__typename": "HomeFeedResult"
+      }
+    }
+  }
+]
