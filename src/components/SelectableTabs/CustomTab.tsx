@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Text, TouchableOpacity} from 'react-native';
+import {StyleSheet, Text} from 'react-native';
 import {
   NavigationState,
   SceneRendererProps,
@@ -18,7 +18,6 @@ const CustomTab = (props: TProps) => {
   const {setSelectedHomeTab} = useTabStore();
 
   const handleTabPress = (route: Route) => {
-    console.log({route});
     setSelectedHomeTab(route);
   };
 
@@ -52,7 +51,8 @@ const styles = StyleSheet.create({
     color: '#000000',
     textAlign: 'center',
     maxWidth: 300,
-    paddingRight: 40,
+    paddingRight: 'auto',
+    paddingLeft: 'auto',
   },
   indicator: {
     backgroundColor: 'grey',

@@ -1,6 +1,6 @@
-import {StyleSheet, Text, View, useWindowDimensions} from 'react-native';
+import {StyleSheet, useWindowDimensions} from 'react-native';
 import React, {useState} from 'react';
-import {TabView, SceneMap, TabBar} from 'react-native-tab-view';
+import {TabView, SceneMap} from 'react-native-tab-view';
 import TabInfo from './TabInfo';
 import userInterestsData from '../../mocks/userInterestsData.json';
 import {getTabRoutesData} from '../../utils/helpers/getTabRoutesData';

@@ -22,3 +22,13 @@ export interface IMutationOptions {
   onSuccess?: <T>(data?: T) => void;
   onError?: <T>(data?: T) => void;
 }
+
+export interface IArticleListResponse {
+  article_id: string;
+  written_by: string;
+  article_title: string;
+  written_in: string;
+  published_on: string;
+  time_to_read: string;
+  article_image_address: string;
+}

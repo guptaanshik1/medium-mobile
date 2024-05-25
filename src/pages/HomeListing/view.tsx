@@ -1,21 +1,42 @@
-import {StyleSheet, Text, View} from 'react-native';
-import React, {useEffect} from 'react';
+import {FlatList, Pressable, ScrollView, StyleSheet, View} from 'react-native';
+import React from 'react';
 import {useTabStore} from './tabStore';
+import selectedTabList from '../../mocks/articlesList.json';
+import ArticleCard from './ArticleCard';
 
 const HomeListing = () => {
   const {selectedHomeTab} = useTabStore();
 
-  useEffect(() => {
-    console.log({selectedTabInHome: selectedHomeTab});
-  }, [selectedHomeTab]);
-
   return (
-    <View>
-      <Text>{selectedHomeTab?.title}</Text>
-    </View>
+    <ScrollView>
+      <FlatList
+        style={styles.listContainer}
+        numColumns={1}
+        data={selectedTabList}
+        renderItem={({item}) => {
+          return (
+            <Pressable key={item?.article_id}>
+              <ArticleCard articleItem={item} />
+            </Pressable>
+          );
+        }}
+        ItemSeparatorComponent={() => <View style={styles.itemSeparator} />}
+        scrollEnabled={true}
+      />
+    </ScrollView>
   );
 };
 
 export default HomeListing;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  listContainer: {
+    display: 'flex',
+    left: 0,
+    right: 0,
+  },
+  itemSeparator: {
+    borderWidth: 1,
+    borderBottomColor: 'lightgrey',
+  },
+});
