@@ -1,57 +1,42 @@
-import {
-  ScrollView,
-  StyleSheet,
-  TouchableWithoutFeedback,
-  View,
-} from 'react-native';
-import React, {PropsWithChildren, useState} from 'react';
+import {StyleSheet, ViewStyle} from 'react-native';
+import React, {ReactNode, useState} from 'react';
 import {TCustomMenuProps} from '../../utils/data';
+import {Button, Menu} from 'react-native-paper';
 
 interface IProps {
-  isOpen: boolean;
-  onClose: () => void;
+  actionable: ReactNode;
+  menuData: TCustomMenuProps;
+  styles: ViewStyle;
 }
 
-const CustomMenu = ({
-  isOpen,
-  onClose,
-  children,
-  ...props
-}: IProps & PropsWithChildren) => {
-  const [isVisible, setIsVisible] = useState(isOpen);
+const CustomMenu = ({actionable, menuData, styles}: IProps) => {
+  const [isVisible, setIsVisible] = useState(false);
 
-  const handleOutsidePress = () => {
-    if (isVisible) {
-      setIsVisible(false);
-      onClose();
-    }
+  const openMenu = () => {
+    setIsVisible(true);
   };
 
-  return isVisible ? (
-    <TouchableWithoutFeedback onPress={handleOutsidePress}>
-      <View style={styles.overlay} {...props}>
-        <ScrollView style={styles.menuContainer}>{children}</ScrollView>
-      </View>
-    </TouchableWithoutFeedback>
-  ) : null;
+  const closeMenu = () => {
+    setIsVisible(false);
+  };
+
+  return (
+    <Menu
+      contentStyle={styles}
+      visible={isVisible}
+      onDismiss={closeMenu}
+      anchor={
+        <Button style={{padding: 0, margin: 0}} onPress={openMenu}>
+          {actionable}
+        </Button>
+      }>
+      {menuData?.map(item => (
+        <Menu.Item key={item?.value} title={item?.label} />
+      ))}
+    </Menu>
+  );
 };
 
 export default CustomMenu;
 
-const styles = StyleSheet.create({
-  menuContainer: {
-    maxHeight: 400,
-    display: 'flex',
-    backgroundColor: '#FFFFFF',
-    padding: 24,
-    borderRadius: 10,
-  },
-  overlay: {
-    flex: 1,
-    position: 'absolute',
-    right: 0,
-    zIndex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
+const styles = StyleSheet.create({});

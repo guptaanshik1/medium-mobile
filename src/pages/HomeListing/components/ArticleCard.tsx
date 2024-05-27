@@ -7,7 +7,8 @@ import MenuIcon from 'react-native-vector-icons/Entypo';
 import BlockIcon from 'react-native-vector-icons/Octicons';
 import AddBookmark from 'react-native-vector-icons/MaterialIcons';
 import {globalPadding} from '../../../utils/common/globalStyles';
-import ArticleCardMenu from './ArticleCardMenu';
+import CustomMenu from '../../../components/CustomMenu';
+import {menuConfig} from '../utils/config/menuConfig';
 
 interface IProps {
   articleItem: IArticleListResponse;
@@ -48,16 +49,14 @@ const ArticleCard = ({articleItem}: IProps) => {
           <View style={styles.articleLeftIcons}>
             <AddBookmark name="bookmark-add" size={24} />
             <BlockIcon name="blocked" size={20} />
-            <TouchableOpacity onPress={() => setIsMenuOpen(true)}>
-              <MenuIcon name="dots-three-vertical" size={20} />
-            </TouchableOpacity>
+            <CustomMenu
+              styles={{backgroundColor: '#FFFFFF', borderRadius: 8}}
+              actionable={<MenuIcon name="dots-three-vertical" size={20} />}
+              menuData={menuConfig}
+            />
           </View>
         </View>
       </View>
-
-      {isMenuOpen && (
-        <ArticleCardMenu isOpen={isMenuOpen} onClose={handleCloseMenu} />
-      )}
     </>
   );
 };
@@ -112,6 +111,7 @@ const styles = StyleSheet.create({
   articleLeftIcons: {
     display: 'flex',
     flexDirection: 'row',
-    gap: 25,
+    alignItems: 'center',
+    gap: 20,
   },
 });
