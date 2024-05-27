@@ -2,7 +2,7 @@ import {FlatList, Pressable, ScrollView, StyleSheet, View} from 'react-native';
 import React from 'react';
 import {useTabStore} from './tabStore';
 import selectedTabList from '../../mocks/articlesList.json';
-import ArticleCard from './ArticleCard';
+import ArticleCard from './components/ArticleCard';
 
 const HomeListing = () => {
   const {selectedHomeTab} = useTabStore();

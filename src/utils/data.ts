@@ -32,3 +32,5 @@ export interface IArticleListResponse {
   time_to_read: string;
   article_image_address: string;
 }
+
+export type TCustomMenuProps = Array<{label: string; value: string}>;

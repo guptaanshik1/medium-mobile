@@ -1,12 +1,15 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import Router from './components/Router';
+import {PaperProvider} from 'react-native-paper';
 
 const App = () => {
   return (
-    <NavigationContainer>
-      <Router />
-    </NavigationContainer>
+    <PaperProvider>
+      <NavigationContainer>
+        <Router />
+      </NavigationContainer>
+    </PaperProvider>
   );
 };
 
