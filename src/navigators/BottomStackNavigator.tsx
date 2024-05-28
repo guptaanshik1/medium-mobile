@@ -7,6 +7,7 @@ import Bookmarks from '../pages/Bookmarks/view';
 import Profile from '../pages/Profile/view';
 import MainFooter from '../components/MainFooter';
 import MainHeader from '../components/MainHeader';
+import HomeScreen from './HomeScreen';
 
 export const Tab = createBottomTabNavigator<TBottomNavigatonParamList>();
 
@@ -15,7 +16,7 @@ const BottomStackNavigator = () => {
     <Tab.Navigator tabBar={props => <MainFooter {...props} />}>
       <Tab.Screen
         name={MainFooterTypes.HOME}
-        component={HomeListing}
+        component={HomeScreen}
         options={{header: props => <MainHeader {...props} />}}
       />
       <Tab.Screen

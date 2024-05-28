@@ -3,27 +3,35 @@ import React from 'react';
 import {useTabStore} from './tabStore';
 import selectedTabList from '../../mocks/articlesList.json';
 import ArticleCard from './components/ArticleCard';
+import {NativeStackScreenProps} from '@react-navigation/native-stack';
+import {THomeNavigationParamList} from '../../utils/data';
 
-const HomeListing = () => {
+type THomeListingProps = NativeStackScreenProps<THomeNavigationParamList>;
+
+const HomeListing = ({navigation}: THomeListingProps) => {
   const {selectedHomeTab} = useTabStore();
 
   return (
-    <ScrollView>
-      <FlatList
-        style={styles.listContainer}
-        numColumns={1}
-        data={selectedTabList}
-        renderItem={({item}) => {
-          return (
-            <Pressable key={item?.article_id}>
-              <ArticleCard articleItem={item} />
-            </Pressable>
-          );
-        }}
-        ItemSeparatorComponent={() => <View style={styles.itemSeparator} />}
-        scrollEnabled={true}
-      />
-    </ScrollView>
+    <>
+      <ScrollView>
+        <FlatList
+          style={styles.listContainer}
+          numColumns={1}
+          data={selectedTabList}
+          renderItem={({item}) => {
+            return (
+              <Pressable
+                key={item?.article_id}
+                onPress={() => navigation.navigate('EntireArticle')}>
+                <ArticleCard articleItem={item} />
+              </Pressable>
+            );
+          }}
+          ItemSeparatorComponent={() => <View style={styles.itemSeparator} />}
+          scrollEnabled={true}
+        />
+      </ScrollView>
+    </>
   );
 };
 

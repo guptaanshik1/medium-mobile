@@ -1,5 +1,5 @@
 import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
-import React, {useState} from 'react';
+import React from 'react';
 import {IArticleListResponse} from '../../../utils/data';
 import ProfileIcon from 'react-native-vector-icons/FontAwesome';
 import DotIcon from 'react-native-vector-icons/Entypo';
@@ -15,12 +15,6 @@ interface IProps {
 }
 
 const ArticleCard = ({articleItem}: IProps) => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const handleCloseMenu = () => {
-    setIsMenuOpen(false);
-  };
-
   return (
     <>
       <View style={styles.itemContainer}>

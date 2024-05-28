@@ -18,6 +18,11 @@ export type TBottomNavigatonParamList = {
   Profile: undefined;
 };
 
+export type THomeNavigationParamList = {
+  HomeListing: undefined;
+  EntireArticle: undefined;
+};
+
 export interface IMutationOptions {
   onSuccess?: <T>(data?: T) => void;
   onError?: <T>(data?: T) => void;
